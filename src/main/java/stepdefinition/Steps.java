@@ -18,7 +18,7 @@ public class Steps {
 	public void headless_browser_is_opened_and_Expense_Manager_app_is_launched() throws Throwable {
 		
 		driver = new HtmlUnitDriver();
-		driver.get("http://localhost:8089/ExpenseApp-1/login.jsp");	
+		driver.get("http://localhost:8090/ExpenseApp-1/login.jsp");	
 	    
 	}
 
@@ -36,7 +36,7 @@ public class Steps {
 	@Then("^it shows home page$")
 	public void it_shows_home_page() throws Throwable {
 				//Buggy Code
-				//String expectedTitle = "Hello Page";
+				///String expectedTitle = "Hello Page";
 				
 				//Correct Code
 				String expectedTitle = "Home page";
